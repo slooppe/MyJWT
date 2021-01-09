@@ -3,7 +3,7 @@ Section: web
 Priority: optional
 Maintainer: Kali Developers <devel@kali.org>
 Uploaders: mBouamama <matthieubouamama@gmail.com>
-Build-Depends: debhelper-compat (= 13)
+Build-Depends: debhelper-compat (= 13),
                dh-python,
                python3-all,
                python3-setuptools,
@@ -38,3 +38,4 @@ Depends: ${python3:Depends},
          python3-pyperclip,
          python3-colorama
 Description: This cli is for pentesters, CTF players, or dev who like to play with jwt.
+You can decode jwt, modify your jwt, sign with a new key, rsa/hmac confusion,brute force with dictionnary, crack signature, verify signature, inject sql ,jku bypass, x5u bypass, etc....With this tool you can exploit many miss-configurations of jwt.
