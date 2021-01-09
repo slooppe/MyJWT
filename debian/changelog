@@ -1,0 +1,5 @@
+myjwt (20210109-1) unstable; urgency=medium
+
+  * Initial release (Closes: #6888)  <6888 is the bug number of your ITP>
+
+ -- mBouamama <matthieubouamama@gmail.com>  Sat, 09 Jan 2021 18:09:08 +0100

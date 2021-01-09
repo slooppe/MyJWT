@@ -1,0 +1,41 @@
+Source: myjwt
+Section: web
+Priority: optional
+Maintainer: Kali Developers <devel@kali.org>
+Uploaders: mBouamama <matthieubouamama@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+               dh-python,
+               python3-all,
+               python3-setuptools,
+               python3-requests,
+               python-click,
+               python-cryptography,
+               python-pyopenssl,
+               python-requests,
+               python-questionary,
+               python-aiocmd,
+               exrex,
+               python3-pyperclip,
+               python3-colorama
+Standards-Version: 4.5.1
+Homepage: https://github.com/mBouamama/MyJWT
+Vcs-Browser: https://github.com/mBouamama/MyJWT
+Vcs-Git: https://github.com/mBouamama/MyJWT.git
+Rules-Requires-Root: no
+
+Package: myjwt
+Architecture: all
+Depends: ${python3:Depends},
+         ${misc:Depends},
+         python3-requests,
+         python-click,
+         python-cryptography,
+         python-pyopenssl,
+         python-requests,
+         python-questionary,
+         python-aiocmd,
+         exrex,
+         python3-pyperclip,
+         python3-colorama
+Description: This cli is for pentesters, CTF players, or dev who like to play with jwt.
+You can decode jwt, modify your jwt, sign with a new key, rsa/hmac confusion,brute force with dictionnary, crack signature, verify signature, inject sql ,jku bypass, x5u bypass, etc....With this tool you can exploit many miss-configurations of jwt.
